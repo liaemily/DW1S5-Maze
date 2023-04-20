@@ -1,0 +1,31 @@
+* {
+	margin: auto;
+	padding: auto;
+	border: auto;
+	position: relative;
+	margin-top: 5%;
+}
+
+body {
+	background-color: black;
+}
+
+@font-face {
+	font-family: emulogic;
+	src: url('emulogic.ttf');
+}
+
+.hidden {
+	font-family: emulogic;
+	visibility: hidden;
+	position: absolute;
+}
+
+@media (max-width: 992px) {
+	* {
+		max-width: 100%;
+		max-height: 100%;
+		margin-top: 0%;
+		position: fixed;
+	}
+}
